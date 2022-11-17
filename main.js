@@ -26,7 +26,7 @@ function onSubmit(e) {
       phone :number.value
     }
     var userDetails_toString = JSON.stringify(userDetails);
-    localStorage.setItem('userDetails',userDetails_toString)
+    localStorage.setItem(`${nameInput.value}`,userDetails_toString)
     
 
     // Clear fields
